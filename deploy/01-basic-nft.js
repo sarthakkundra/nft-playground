@@ -17,11 +17,11 @@ module.exports = async ({ deployments, getNamedAccounts }) => {
 		waitForConfirmations: network.config.blockConfirmations || 1,
 	});
 
-	if (
-		!developmentNetworks.includes(network.name) &&
-		process.env.ETHERSCAN_API_KEY
-	) {
-		log("VERIFYING..........");
-		await verify(basicNft.address, args);
-	}
+	// if (
+	// 	!developmentNetworks.includes(network.name) &&
+	// 	process.env.ETHERSCAN_API_KEY
+	// ) {
+	// 	log("VERIFYING..........");
+	// 	await verify(basicNft.address, args);
+	// }
 };
