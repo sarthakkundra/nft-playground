@@ -719,8 +719,8 @@
       "artifacts": []
     },
     "/Users/sarthakkundra/Desktop/nft-playground/contracts/RandomIpfsNft.sol": {
-      "lastModificationDate": 1706615727122,
-      "contentHash": "227f08131a2a85cf67e5f372053f04f3",
+      "lastModificationDate": 1707050092657,
+      "contentHash": "e9e4c774dd2997c1557ddc7eeb481e31",
       "sourceName": "contracts/RandomIpfsNft.sol",
       "solcConfig": {
         "version": "0.8.20",
